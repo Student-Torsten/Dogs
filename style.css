@@ -1,0 +1,44 @@
+/* general settings*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100%;
+}
+
+body {
+  margin: 20px;
+  height: 100%;
+  text-align:center;
+}
+.mainframe {
+  align-items: center;
+  width: 615px;
+}
+#header {
+  text-align: center;
+}
+.picture-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: top;
+}
+
+.picture {
+  min-width: 250px;
+  max-width: 400px;
+  max-height: 500px;
+  border: 5px solid greenyellow;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.button {
+  _display: inline;
+  border: 3px solid yellow;
+}
